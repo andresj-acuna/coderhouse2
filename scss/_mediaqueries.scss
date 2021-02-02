@@ -1,0 +1,105 @@
+@media screen and (min-width: 1px)
+{
+
+.redes{
+	  display:none;
+      }
+
+.tituloServicios{
+	            font-size: 2.5rem;
+	            font-family: 'Kufam', cursive;
+	            letter-spacing: 0.1rem;
+                }
+
+.imagenServicios{
+                margin: 10rem 0 5rem 0;
+                width: 60%;
+                }
+
+.subrayado{
+	      border-bottom:solid 2px #c4c9cc;
+          width:15%;
+          height:15px;
+          margin: 0 auto 0 auto;
+          }
+
+.subrayado2{
+	        border-bottom:solid 2px #c4c9cc;
+            width: 7%;
+            height:15px;
+            margin: 0 auto 0 auto;
+           }
+
+.textoServicios{
+	           margin-top: 5em;
+	           font-size: 1rem;
+	           font-family: 'Kufam', cursive;
+	           letter-spacing: 0.1rem;
+	           margin-left: 15px;
+               }
+
+#carouselExampleIndicators {
+	                       display:none;
+                           } 
+
+.card-group{
+	       padding-top: 11.5em;
+           }
+
+}
+
+
+@media screen and (min-width: 576px)
+{
+
+.redesSociales{
+	          height: 1em;
+	          }
+}
+
+
+@media screen and (min-width: 992px)
+{
+
+.redes{
+	  display:block;
+      }	
+
+.redesSociales{
+	          height: 1.8em;
+              }
+
+.imagenServicios{
+                margin-top: .5em;
+	            }
+
+.tituloServicios{
+                font-size: 4rem;
+	            font-family: 'Kufam', cursive;
+	            letter-spacing: 0.1rem;
+	            margin-left: 15px;
+                }
+
+.titulo{
+	   font-size: 4rem;
+	   font-family: 'Kufam', cursive;
+	   letter-spacing: 0.1rem;
+	   margin-left: 15px;
+       }
+
+.textoServicios{
+	           margin-top: 5em;
+	           font-size: 1.5rem;
+	           font-family: 'Kufam', cursive;
+	           letter-spacing: 0.1rem;
+	           margin-left: 15px;
+               }
+
+#carouselExampleIndicators {
+	                       display: block;
+                           } 
+
+.card-group{
+	       padding-top: 0em;
+           }
+}

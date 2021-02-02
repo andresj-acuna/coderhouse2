@@ -1,0 +1,29 @@
+@mixin styleSection ($margin, $padding) {
+	margin: $margin;
+	padding: $padding;
+}
+
+.estiloSection{
+	@include styleSection(3em, 1em);
+}
+
+
+.backInLeft{
+           animation: backInLeft;
+	       animation-duration: 1s;
+	       animation-delay: 1.2s;
+           }
+
+
+@mixin styleCards ($width, $display, $align, $padding){
+	width: $width;
+	display: $display;
+	align-items: $align;
+	padding-top: $padding;
+}
+
+.card-group{
+	.card{
+		@include styleCards(100%, flex, center, 20px);
+	}
+}
